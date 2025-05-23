@@ -1,0 +1,262 @@
+body {
+  background: linear-gradient(135deg, #d0e7fb 0%, #a5c8e8 100%);
+  color: #1e2a38;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+  background-color: #1c4f8b;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link:hover,
+.nav-btn:hover {
+  color: #7dd3fc !important;
+  transition: 0.3s ease;
+}
+
+.btn-custom {
+  background-color: #2991c7;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.btn-custom:hover {
+  background-color: #1e7db3;
+  color: #fff;
+}
+
+.nav-link.nav-btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  color: #ffffff;
+}
+
+.nav-link.nav-btn:hover {
+  background-color: #2991c7;
+  color: #fff !important;
+}
+
+.navbar .btn-outline-info {
+  color: #2991c7;
+  border-color: #2991c7;
+}
+
+.navbar .navbar-nav .btn-outline-info:hover {
+  background-color: #2991c7;
+  color: #fff;
+}
+
+.navbar .btn-custom {
+  background-color: #2991c7;
+  color: #fff;
+  border: none;
+  margin-bottom: 2px;
+}
+
+.navbar-brand img {
+  height: 80px;
+}
+
+.hero-container {
+  margin-top: 200px;
+}
+
+.hero-section {
+  margin-top: 100rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('https://www.shutterstock.com/image-vector/smart-lpr-camera-solutions-landing-600nw-2312991145.jpg') center/cover no-repeat;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(255, 255, 255, 0.8);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: left;
+}
+
+.hero-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1c4f8b;
+}
+
+.hero-desc {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  max-width: 500px;
+  color: #1e2a38;
+}
+
+.feature-box {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 0.9rem;
+  min-height: 280px;
+}
+
+.feature-box h5 {
+  font-size: 1.1rem;
+}
+
+.feature-box p {
+  font-size: 0.9rem;
+}
+
+.feature-icon i {
+  font-size: 2.5rem; /* Reduce icon size */
+}
+
+
+.login-container,
+.signup-container {
+  padding-top: 130px;
+  padding-bottom: 80px;
+}
+
+.login-card,
+.signup-card {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 8px 30px rgba(41, 146, 199, 0.2);
+  color: #1c4f8b;
+}
+
+.form-control {
+  background-color: #f0f9fe;
+  border: 1px solid #a7c9e2;
+  color: #1e2a38;
+  border-radius: 8px;
+}
+
+.form-control::placeholder {
+  color: #8ba7c2;
+}
+
+.form-control:focus {
+  border-color: #2991c7;
+  box-shadow: 0 0 6px #2991c7;
+}
+
+.google-btn {
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.google-btn:hover {
+  background-color: #e1e1e1;
+  color: #000;
+}
+
+.google-icon {
+  margin-right: 8px;
+}
+
+.contact-section {
+  position: relative;
+  background: linear-gradient(135deg, #d0e7fb 0%, #a5c8e8 100%);
+  padding: 80px 0;
+  overflow: hidden;
+}
+
+.contact-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(41, 146, 199, 0.1);
+  z-index: 1;
+}
+
+.contact-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  animation: fadeUp 1s ease forwards;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  color: #2991c7;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact-desc {
+  color: #444;
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-form .form-control:focus {
+  border-color: #2991c7;
+  box-shadow: 0 0 6px #2991c7;
+}
+
+.about-section {
+  background: linear-gradient(135deg, #d0e7fb 0%, #a5c8e8 100%);
+  padding: 80px 0;
+  color: #1e2a38;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  color: #2991c7;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about-desc {
+  font-size: 1.1rem;
+  color: #444;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.about-card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(41, 146, 199, 0.2);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  text-align: center;
+}
+
+.about-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 40px rgba(41, 146, 199, 0.3);
+}
+
+.animate-box {
+  animation: fadeUp 1s ease forwards;
+  opacity: 0;
+  transform: translateY(40px);
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
